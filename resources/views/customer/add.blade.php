@@ -18,7 +18,7 @@
                         <label for="premium-price" class="premium-price">Premium Price</label><br>
                         <input class="input-type form-control input-premium-price" type="input" name="premium_price" value=""> <br>    
 
-                        <button type="button" class="btn btn-default"> Cancel </button>
+                        <button type="button" class="btn btn-default"><a href="/home"> Cancel </a></button>
                         <button type="submit" class="submit-add-customer btn btn-info">Submit</button>
                     </div>
                 </form>

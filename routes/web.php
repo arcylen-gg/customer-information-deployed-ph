@@ -20,5 +20,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/add-customer', 'CustomerController@index');
-Route::get('/get-customer-quote', 'CustomerController@getQuote');
+Route::group(['middleware' => 'auth'], static function() {
+    Route::get('/add-customer', 'CustomerController@index');
+    Route::get('/get-customer-quote', 'CustomerController@getQuote');
+});

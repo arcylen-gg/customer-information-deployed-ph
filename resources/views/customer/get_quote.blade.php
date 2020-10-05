@@ -14,6 +14,7 @@
                         <label for="email" class="email">E-Mail</label><br>
                         <input class="input-type form-control input-email" type="text" name="email" value=""> <br> 
 
+                        <button type="button" class="btn btn-default"><a href="/home"> Cancel </a></button>
                         <button type="submit" class="submit-customer-quote btn btn-info">Get Quote</button>
                     </div>
                     <div class="card-body quote-result-body">
